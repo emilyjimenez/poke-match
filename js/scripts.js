@@ -9,16 +9,16 @@ $(document).ready(function() {
     if (personality === "Lazy") {
       pokemon = "Snorlax";
       pokemonimg ="img/snorlax.gif";
-    } else if (elements ==="fire") {
+    } else if (elements === "fire") {
       pokemon = "Charmander";
       pokemonimg = "img/charmander.gif";
-    } else if (elements ==="water") {
+    } else if (elements === "water") {
       pokemon = "Squirtle";
       pokemonimg = "img/squirtle.gif";
-    } else if (elements ==="grass") {
+    } else if (elements === "grass") {
       pokemon = "Bulbasaur";
       pokemonimg = "img/bulbasaur.gif";
-    } else if (elements ==="electric") {
+    } else if (elements === "electric") {
       pokemon = "Pikachu"
       pokemonimg = "img/pikachu.gif"
     }
