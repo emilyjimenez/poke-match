@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Poke-match</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pokemon Pairing System</h1>
+      <p>Not sure which starter pokemon to choose? Fill out this form to find out your perfect match!</p>
+      <form id="formOne">
+        <label>Select your favorite element:</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="elements" value="fire">
+            Fire
+          </label>
+          <label>
+            <input type="radio" name="elements" value="water">
+            Water
+          </label>
+          <label>
+            <input type="radio" name="elements" value="grass">
+            Grass
+          </label>
+          <label>
+            <input type="radio" name="elements" value="electric">
+            Electric
+          </label>
+          <br><br>
+        </div>
+        <label>Select your personality:</label>
+        <select class="form-control" id="personality">
+          <option>Determined</option>
+          <option>Bubbly</option>
+          <option>Energetic</option>
+          <option>Lazy</option>
+        </select>
+        <br></br>
+
+        <button type="submit" class="btn-success">Generate match!</button>
+      </form>
+      <div id="results"class="hide">
+        <h2>You got:</h2>
+        <p></p>
+        <img src="">
+      </div>
+    </div>
+  </body>
+</html>
