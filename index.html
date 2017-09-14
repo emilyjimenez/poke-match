@@ -16,14 +16,14 @@
           <label for="age">Enter your age:</label>
         </div>
         <div class="form-group">
-          <input type="text" id="age">
+          <input type="number" id="age" required>
         </div>
         <div class="form-group">
           <label>Select your favorite element:</label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="elements" value="fire">
+            <input type="radio" name="elements" value="fire" checked>
             Fire
           </label>
           <label>
@@ -52,7 +52,7 @@
         <br></br>
         <button type="submit" class="btn-success">Generate match!</button>
       </form>
-      
+
       <div id="results"class="hide">
         <h2>You got:</h2>
         <p></p>
